@@ -214,6 +214,12 @@ img {
   row-gap: 48px;
   column-gap: 24px;
 }
+.team-list {
+  width: calc((100%-3 * 24px) / 4);
+}
+.portfolio-list {
+  width: calc((100%-2 * 24px) / 3);
+}
 .team-list-item,
 .portfolio-list-item {
   display: inline-flex;
