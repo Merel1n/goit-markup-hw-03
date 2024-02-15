@@ -17,6 +17,7 @@ ol {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 a {
   color: currentColor;
@@ -40,24 +41,27 @@ img {
 }
 .container {
   max-width: 100%;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 156px;
-  margin-right: 156px;
-  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
+.container-page-heder,
+.page-header-nav,
+.page-heder-list,
+.page-header-address-list {
+  display: flex;
+  align-items: center;
+}
 .page-main,
 .page-footer {
   background-color: #2e2f42;
-  border: 5px solid #4d5ae5;
 }
-.logo-header,
-.logo-heder-span,
-.page-footer-logo,
-.logo-footer-span {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -69,33 +73,35 @@ img {
 .logo-heder-span {
   color: #2e2f42;
 }
-.page-heder-list {
+.logo-header {
+  margin-right: 76px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.page-heder-list,
+.page-header-address-list {
+  gap: 40px;
+}
+.page-header-address {
+  margin-left: auto;
+}
+.page-header-list-link {
   font-weight: 500;
   line-height: 1.5;
   color: #2e2f42;
-}
-.page-header-list-link:hover {
-  color: #404bbf;
-}
-.page-header-list-link,
-.page-header-address-link {
-  color: #2e2f42;
-}
-.page-header-list-link:focus {
-  color: #404bbf;
-}
-.page-header-address-link:hover {
-  color: #404bbf;
-}
-.page-header-address-link:focus {
-  color: #404bbf;
 }
 .page-header-address {
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
+  color: #2e2f42;
 }
-
+.page-header-list-link:hover,
+.page-header-list-link:focus,
+.page-header-address-link:hover,
+.page-header-address-link:focus {
+  color: #404bbf;
+}
 .page-main,
 .page-main-button {
   color: #fff;
