@@ -66,6 +66,7 @@ img {
 }
 .logo-header {
   margin-right: 76px;
+  padding: 24px 0;
 }
 .page-heder-list,
 .page-header-address-list {
@@ -99,6 +100,10 @@ img {
 .page-main-button {
   color: #fff;
 }
+.page-main {
+  padding: 188px 0;
+}
+
 .page-main-title {
   font-weight: 700;
   font-size: 56px;
@@ -122,10 +127,16 @@ img {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .page-main-button:hover,
 .page-main-button:focus {
   background-color: #404bbf;
+}
+.benefits {
+  padding: 120px 0;
 }
 .benefits-list,
 .portfolio-list {
@@ -164,6 +175,10 @@ img {
 .team-list-item-title {
   text-align: center;
 }
+.team-list-item-title,
+.portfolio-list-item-title{
+  margin-bottom: 8px
+}
 .logo-footer-span,
 .page-footer-text {
   color: #f4f4fd;
@@ -171,20 +186,9 @@ img {
 .page-main {
   padding: 188px 472px;
 }
-.container-benefist {
-  padding: 120px 0;
-}
+
 .benefits-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  visibility: hidden;
 }
 .benefits-list {
   display: flex;
@@ -192,7 +196,7 @@ img {
   gap: 24px;
 }
 .benefits-list-item {
-  width: 264px;
+  width calc((100% - 3 * 24px) / 4);
 }
 .benefits-list-item-title {
   margin-bottom: 8px;
@@ -214,31 +218,35 @@ img {
   row-gap: 48px;
   column-gap: 24px;
 }
-.team-list {
+.team-list-item {
   width: calc((100%-3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.portfolio-list {
+.portfolio-list-item {
   width: calc((100%-2 * 24px) / 3);
 }
 .team-list-item,
 .portfolio-list-item {
   display: inline-flex;
   flex-direction: column;
+  gap: 24px; 
 }
-.portfolio-list-item-container-tex {
+.portfolio-list-item-container-text,
+ .portfolio-list-item-container-text:last-child{
   display: inline-flex;
   flex-direction: column;
   row-gap: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 16px;
+  padding: 0 16px;
   width: 360px;
 }
+
 .container-text {
   display: inline-flex;
   flex-direction: column;
   row-gap: 8px;
-  padding: 32px 16px;
+  padding: 32px 0;
   width: 264px;
 }
 .page-footer {
