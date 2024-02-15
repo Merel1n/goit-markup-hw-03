@@ -176,8 +176,8 @@ img {
   text-align: center;
 }
 .team-list-item-title,
-.portfolio-list-item-title{
-  margin-bottom: 8px
+.portfolio-list-item-title {
+  margin-bottom: 8px;
 }
 .logo-footer-span,
 .page-footer-text {
@@ -196,7 +196,7 @@ img {
   gap: 24px;
 }
 .benefits-list-item {
-  width calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .benefits-list-item-title {
   margin-bottom: 8px;
@@ -229,10 +229,10 @@ img {
 .portfolio-list-item {
   display: inline-flex;
   flex-direction: column;
-  gap: 24px; 
+  gap: 24px;
 }
 .portfolio-list-item-container-text,
- .portfolio-list-item-container-text:last-child{
+.portfolio-list-item-container-text:last-child {
   display: inline-flex;
   flex-direction: column;
   row-gap: 8px;
