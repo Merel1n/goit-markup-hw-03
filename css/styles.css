@@ -255,7 +255,7 @@ img {
 }
 .page-footer-logo {
   display: inline-block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .page-footer-text {
   max-width: 264px;
