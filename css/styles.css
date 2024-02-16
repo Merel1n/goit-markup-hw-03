@@ -69,7 +69,8 @@ img {
   padding: 24px 0;
 }
 .page-heder-list,
-.page-header-address-list {
+.page-header-address-list,
+.page-header-list-item {
   gap: 40px;
   padding: 24px 0;
 }
@@ -184,7 +185,7 @@ img {
 .page-footer-text {
   color: #f4f4fd;
 }
-.visibility-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -217,8 +218,7 @@ img {
 .portfolio-title {
   margin-bottom: 72px;
 }
-.portfolio-list,
-.team-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -245,7 +245,7 @@ img {
   row-gap: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 0 16px;
+  padding: 32px 16px;
   width: 360px;
 }
 
@@ -253,7 +253,7 @@ img {
   display: inline-flex;
   flex-direction: column;
   row-gap: 8px;
-  padding: 32px 16px;
+  padding: 32px 0;
   width: 264px;
 }
 .page-footer {
