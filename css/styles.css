@@ -70,7 +70,8 @@ img {
 }
 .page-heder-list,
 .page-header-address-list,
-.page-header-list-item {
+.page-header-list-item,
+.page-header-list-link {
   gap: 40px;
   padding: 24px 0;
 }
