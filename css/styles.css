@@ -22,6 +22,9 @@ a {
   margin-bottom: 0;
   padding-left: 0;
 }
+h1 {
+  margin-top: 0;
+}
 h2,
 h3,
 p {
@@ -42,7 +45,6 @@ img {
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 .container-page-heder,
 .page-header-nav,
@@ -74,7 +76,7 @@ img {
   gap: 40px;
 }
 .page-header-list-link {
-  display: flex;
+  display: block;
   padding: 24px 0;
 }
 .page-header-address {
@@ -118,6 +120,7 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .page-main-button {
   font-family: "Roboto", sans-serif;
@@ -236,29 +239,16 @@ img {
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
-.team-list-item,
-.portfolio-list-item {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 24px;
-}
+
 .portfolio-list-item-container-text,
 .portfolio-list-item-container-text:last-child {
-  display: inline-flex;
-  flex-direction: column;
-  row-gap: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-  width: 360px;
 }
 
 .container-text {
-  display: inline-flex;
-  flex-direction: column;
-  row-gap: 8px;
   padding: 32px 0;
-  width: 264px;
 }
 .page-footer {
   padding-top: 100px;
