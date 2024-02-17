@@ -67,12 +67,14 @@ img {
 .logo-header {
   margin-right: 76px;
   padding: 24px 0;
+  display: block;
 }
 .page-heder-list,
-.page-header-address-list,
-.page-header-list-item,
-.page-header-list-link {
+.page-header-address-list {
   gap: 40px;
+}
+.page-header-list-link {
+  display: flex;
   padding: 24px 0;
 }
 .page-header-address {
@@ -190,9 +192,10 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: 1px;
+  margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
